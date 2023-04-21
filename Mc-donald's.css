@@ -1,0 +1,258 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar-main
+{   display: flex;
+    width: 100%;
+    height: 200px;
+    
+}
+.box-1  {
+    
+    flex: 1;
+    height: 200px;
+    
+}
+.box-2{
+    /* background-color: #87c931; */
+    flex:5;
+     
+}
+.box-top-1
+{   height: 30%;
+    width: 100%;
+    /* background-color: #956b6b; */
+    display: flex;
+
+}
+
+.div-1{
+    width: 30%;
+    /* background-color: #151e09; */
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.div-2{
+    width: 25%;
+    /* background-color: #0b0689; */
+}
+.div-3{
+    width: 30%;
+    /* background-color: #11a5bc; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #000;
+    
+}
+.div-4{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #000;
+}
+.div-1 span a{
+    text-decoration: none;
+    color: #000;
+}
+.div-3 a {
+    
+    text-decoration: none;
+    color: #000;
+    
+}
+.div-4 button a{
+    text-decoration: none;
+    color: #000;
+}
+  /* nsv potion 2 */
+.box-top-2
+{   height: 70%;
+    width: 100%;
+    padding-top:8px;
+}
+
+.div-5 
+{   
+     display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 87%;
+
+}
+.div-5 span a
+{  
+    text-decoration: none;
+    color: #000;
+}
+.div-6
+{
+    width: 13%;
+}  
+
+.h{
+    height: 50px;
+    width: 100%;
+    
+
+}
+
+.hide {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hide-1
+{
+     width: 15%;
+     display: flex;
+}
+.hide-2
+{
+     width: 70%;
+}
+
+.hide-3
+{   
+   width: 15%;
+}
+.hide-3 button a
+{
+    text-decoration:none ;
+    color: #000;
+}
+
+
+
+/* footer */
+
+.foot-potion
+{
+    width: 100%;
+    height: 220px;
+    
+}
+
+.footer-items
+{font-size: 17px;
+    line-height: 50px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.main-foot{
+    height: 180px;
+    width: 100%;
+    
+}
+
+.sub-foot-1
+{
+    width: 100%;
+    display: flex;
+    height: 80px;
+}
+
+.inner-1
+{   
+
+  width:35% ;
+
+}
+.inner-2
+{ 
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.inner-3
+{   
+    width:35% ;
+
+}
+
+.sub-foot-2{
+    display:flex ;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+}
+
+.inner-4
+{   
+    width:35% ;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.inner-5
+{
+    
+    width:30%;
+}
+
+.inner-6
+{
+    
+    width:35% ;
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (min-width: 1026px) {
+    
+    .hide{
+        display: none;
+    }
+  
+  }
+   
+
+  @media only screen and (max-width: 1026px) {
+    
+    .navbar-main{
+        display: none;
+    }
+    .list
+    {
+        display: none;
+    }
+    .mc-donalds-icon{
+        display: none;
+    }
+  } 
+
+
+  @media only screen and (min-width: 1026px) {
+    
+    .foot-potion{
+        display: none;
+    }
+     
+  } 
+
+
+  @media only screen and (min-width: 1026px) {
+    
+    .main-foot{
+        display: none;
+    }
+     
+    
+  } 
+
+  
